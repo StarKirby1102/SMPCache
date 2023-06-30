@@ -1,0 +1,37 @@
+{
+    "NODE_INFO": [
+        {
+            "NAME": "PartyA(P0)",
+            "HOST": "127.0.0.1",
+            "PORT": 25900,
+            "NODE_ID": "P0"
+        },
+        {
+            "NAME": "PartyB(P1)",
+            "HOST": "127.0.0.1",
+            "PORT": 25700,
+            "NODE_ID": "P1"
+        },
+        {
+            "NAME": "PartyC(P2)",
+            "HOST": "127.0.0.1",
+            "PORT": 25500,
+            "NODE_ID": "P2"
+        }
+    ],
+    "DATA_NODES": [
+        "P0",
+        "P1",
+        "P2"
+    ],
+    "COMPUTATION_NODES": {
+        "P0": 0,
+        "P1": 1,
+        "P2": 2
+    },
+    "RESULT_NODES": [
+        "P0",
+        "P1",
+        "P2"
+    ]
+}
